@@ -1,18 +1,11 @@
-<h1 align='center'>EmoDet</h1>
+<h1 align='center'>Emotion Detector</h1>
 
 ### Description
-
-A project which detects a person's face and predicts his/her emotions using OpenCV and Deep Learning.
+ emotions using OpenCV and Deep Learning.
 
 ---
 
-### Dataset
-
-The dataset used in making this project is FER-2013 dataset. The data consists of 48x48 pixel grayscale images of faces. The faces have been automatically registered so that the face is more or less centred and occupies about the same amount of space in each image.
-
-The dataset is categorized into seven categories based on the facial expressions (Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral). The training set consists of 28,709 examples and the public test set consists of 3,589 examples.
-
-The dataset can be accessed by clicking <a href='https://www.kaggle.com/msambare/fer2013'>here</a>.
+### Dataset The dataset can be accessed by clicking <a href='https://www.kaggle.com/msambare/fer2013'>here</a>.
 
 ---
 
@@ -25,13 +18,13 @@ The dataset can be accessed by clicking <a href='https://www.kaggle.com/msambare
 1. Clone the project to you local machine
 
 ```bash
-git clone git@github.com:archihalder/EmoDet.git
+git clone git@github.com:Bhavith-Chandra/Emotion_Detector.git
 ```
 
 2. Enter the directory
 
 ```bash
-cd EmoDet
+cd Emotion_Detector
 ```
 
 3. Get the required modules to run
@@ -52,13 +45,5 @@ cd src
 python3 video.py
 ```
 
----
 
-### Demonstration
 
----
-
-### Contributors
-
-1. <a href = "https://github.com/archihalder">Archi Halder</a>
-2. <a href = "https://github.com/mishra1683">Aditya Mishra</a>
